@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.hidden {
+    display: none;
+}
+.body{
+    font-family: 'Kanit', sans-serif;
+    }
+    @font-face {
+        font-family:'kanit' ;
+        font-weight: 400;
+        src: url(/fonts/Kanit-Black.ttf);
+    }
+
+    @font-face {
+        font-family:'kanit' ;
+        font-weight: 900;
+        src:url(/fonts/Kanit-Bold.ttf);
+    }
+
+     h2 {
+        font-family: 'kanit';
+        color: rgb(10, 103, 89);
+        text-transform: capitalize;
+        font-weight: 700;
+      }
+      
+      p {
+        font-family: 'kanit';
+        color: rgb(32, 100, 194);
+      }
+
+      article {
+        grid-column: 1/-1;
+    }
+
+
+#container {
+    margin: 20px auto;
+    width: 428px;
+    border: solid 1px #ffb2df;
+    background: #c19393;
+    border-radius: 10px;
+}
+
+
+
+img {
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    max-width: 400px;
+    max-height: 400px;
+  }
